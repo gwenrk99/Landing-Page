@@ -1,0 +1,11 @@
+.hero {
+    background-color: #ffffff;
+    background-image: linear-gradient(rgba(0,0,0,0.7),
+    rgba(0,0,0,0.7)),
+    url(barbie.jpg);
+    background-position: center;
+    background-size: cover;
+    color:#ffffff;
+    padding: 1em;
+    text-align: center;
+ }

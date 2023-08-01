@@ -1,4 +1,37 @@
-.hero {
+/*Add a light pink background color to the top navigation */
+.topnav {
+    background-color: #ffd4fd;
+    overflow: hidden; 
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of the links on hover */
+.topnav a:hover {
+    background-color: #ff7bef;
+    color: pink;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #a0fffc;
+    color: white;
+}
+
+
+
+
+
+
+hero {
     background-color: #ffffff;
     background-image: linear-gradient(rgba(0,0,0,0.7),
     rgba(0,0,0,0.7)),
@@ -9,3 +42,4 @@
     padding: 1em;
     text-align: center;
  }
+
